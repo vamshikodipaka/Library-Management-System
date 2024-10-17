@@ -46,7 +46,7 @@ add_librarian(librarian): Adds a new librarian to the library.
 search_book_by_title(title): Returns a book object if the title matches one in the collection, or returns a message indicating the book is not available.
 search_book_by_author(author): Returns a list of books by a given author, or a message indicating no books by that author are found.
 display_all_books(): Displays all books currently in the library.
-### Example Interactions:
+## Example Interactions:
 A librarian adds books to the library.
 A member searches for a book and borrows it.
 If a book is unavailable, the system should notify the member that it is not available.
@@ -57,13 +57,14 @@ Additional Concepts to Implement:
 ### Encapsulation: Keep attributes like copies_available, borrowed_books, etc., private and provide getter and setter methods if needed.
 ### Abstraction: The Library class abstracts away the complex operations of managing members, books, and staff, only exposing necessary methods to interact with the system.
 
-### Task Goals:
+## Task Goals:
 ### Classes and Objects: Demonstrate how to create and use classes and objects.
 ### Inheritance: Show inheritance between Person, Member, and Librarian classes.
 ### Polymorphism: Demonstrate how methods can be overridden in subclasses and used in a polymorphic way.
 ### Encapsulation: Properly encapsulate data and expose it via methods.
 ### Abstraction: Use the Library class to hide complex functionality and expose simple methods.
-### Bonus (Optional):
+
+## Bonus (Optional):
 Add functionality for tracking due dates for borrowed books and issuing reminders for overdue books.
 Introduce fines for late returns and track member payment history.
 Evaluation Criteria:
